@@ -47,6 +47,18 @@ k12-student-data-reporting-lab/
 └── screenshots/          # Future screenshots and dashboard images
 ```
 
+## Quick Start
+
+Run the full workflow with:
+
+    make reset
+
+This rebuilds the SQLite database, runs validation checks, generates reporting extracts, creates the validation summary, and produces the correction action plan.
+
+To apply sample corrections and regenerate reports:
+
+    make apply-corrections
+
 ## Synthetic Data Files
 
 | File | Purpose |
@@ -170,6 +182,12 @@ Each ticket includes issue, impact, investigation, SQL used, root cause, resolut
 - Support ticket documentation
 - Education data privacy awareness
 - Stakeholder and vendor support workflow
+
+## Limitations
+
+This project uses synthetic data only.
+
+The CALPADS-style, CBEDS-style, and CRDC-style outputs are simplified reporting simulations designed to demonstrate workflow understanding, data validation, query logic, documentation, and reporting preparation. They are not official state or federal reporting schemas.
 
 ## Future Enhancements
 
