@@ -94,3 +94,8 @@ The synthetic dataset intentionally includes common data-quality issues:
 ## Notes
 
 All data in this repository is synthetic and created for demonstration purposes only.
+
+## Additional Documentation
+
+- `data/data_dictionary.md` explains each synthetic data file and field.
+- `docs/job_alignment_matrix.md` maps project deliverables to education data systems responsibilities.
