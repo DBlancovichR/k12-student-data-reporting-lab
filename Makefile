@@ -1,4 +1,4 @@
-.PHONY: build validate extracts summary reset clean
+.PHONY: build validate extracts summary corrections reset clean
 
 build:
 	python3 scripts/build_database.py
@@ -12,6 +12,9 @@ extracts:
 summary:
 	python3 scripts/generate_summary.py
 
+corrections:
+	python3 scripts/generate_correction_plan.py
+
 reset:
 	rm -f database/k12_student_reporting.db
 	rm -f reports/generated/*.csv
@@ -20,6 +23,7 @@ reset:
 	python3 scripts/run_validation.py
 	python3 scripts/generate_reporting_extracts.py
 	python3 scripts/generate_summary.py
+	python3 scripts/generate_correction_plan.py
 
 clean:
 	rm -f database/k12_student_reporting.db

@@ -181,3 +181,14 @@ The project can also be run with Make:
 | `make validate` | Runs validation reports |
 | `make reset` | Rebuilds the database and regenerates reports |
 | `make clean` | Removes generated database and reports |
+
+## Correction Action Plan
+
+The project also generates correction planning outputs:
+
+| Output | Purpose |
+|---|---|
+| `reports/generated/correction_action_plan.csv` | Maps each validation issue to an owner, correction step, prevention control, and priority |
+| `reports/generated/correction_action_plan.md` | Provides a reviewer-friendly correction action plan in Markdown |
+
+This simulates the workflow of detecting reporting issues, assigning ownership, documenting corrective action, and preventing recurrence.
