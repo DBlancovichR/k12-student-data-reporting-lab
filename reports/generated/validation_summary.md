@@ -17,6 +17,7 @@ The validation workflow reviews synthetic student information system data for co
 | Invalid grade level records | 1 |
 | Program records missing status | 1 |
 | Senior records requiring review | 4 |
+| Referential integrity exceptions | 1 |
 
 ## Data Quality Scorecard
 
@@ -65,6 +66,13 @@ The validation workflow reviews synthetic student information system data for co
 | 1013 | Ava | Thomas | 12 | Active | On Track | 230 | 232 | Yes | Credit total requires review |
 | 1014 | William | Moore | 12 | Active | Behind Credits | 230 | 190 | Yes | Marked eligible despite insufficient credits |
 | 1015 | Mia | Taylor | 12 | Active |  | 230 | 226 | Yes | Graduation status missing |
+
+
+## Referential Integrity Exceptions
+
+| exception_type | student_id | source_record_id | source_file |
+| --- | --- | --- | --- |
+| Enrollment Missing Student Master Record | 1016 | E016 | enrollments.csv |
 
 
 ## CRDC-Style Discipline Summary

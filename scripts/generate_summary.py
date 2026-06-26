@@ -46,6 +46,7 @@ def main():
     missing_program_status = read_csv_rows("program_records_missing_status.csv")
     senior_review = read_csv_rows("senior_exit_status_review.csv")
     discipline_summary = read_csv_rows("crdc_style_discipline_summary.csv")
+    referential_integrity = read_csv_rows("referential_integrity_exceptions.csv")
 
     total_exceptions = 0
     for row in scorecard:
@@ -73,6 +74,7 @@ The validation workflow reviews synthetic student information system data for co
 | Invalid grade level records | {len(invalid_grades)} |
 | Program records missing status | {len(missing_program_status)} |
 | Senior records requiring review | {len(senior_review)} |
+| Referential integrity exceptions | {len(referential_integrity)} |
 
 ## Data Quality Scorecard
 
@@ -97,6 +99,10 @@ The validation workflow reviews synthetic student information system data for co
 ## Senior Exit Status Review
 
 {markdown_table(senior_review)}
+
+## Referential Integrity Exceptions
+
+{markdown_table(referential_integrity)}
 
 ## CRDC-Style Discipline Summary
 
