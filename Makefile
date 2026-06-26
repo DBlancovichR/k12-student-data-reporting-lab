@@ -1,4 +1,4 @@
-.PHONY: build validate extracts summary corrections reset clean
+.PHONY: build validate extracts summary corrections apply-corrections reset clean
 
 build:
 	python3 scripts/build_database.py
@@ -13,6 +13,13 @@ summary:
 	python3 scripts/generate_summary.py
 
 corrections:
+	python3 scripts/generate_correction_plan.py
+
+apply-corrections:
+	python3 scripts/apply_sample_corrections.py
+	python3 scripts/run_validation.py
+	python3 scripts/generate_reporting_extracts.py
+	python3 scripts/generate_summary.py
 	python3 scripts/generate_correction_plan.py
 
 reset:

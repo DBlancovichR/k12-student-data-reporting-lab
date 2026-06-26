@@ -11,68 +11,57 @@ The validation workflow reviews synthetic student information system data for co
 | Metric | Result |
 |---|---|
 | Total validation categories | 5 |
-| Total detected exceptions | 6 |
-| Duplicate student records | 1 |
-| Missing exit code records | 1 |
-| Invalid grade level records | 1 |
-| Program records missing status | 1 |
-| Senior records requiring review | 4 |
-| Referential integrity exceptions | 1 |
+| Total detected exceptions | 0 |
+| Duplicate student records | 0 |
+| Missing exit code records | 0 |
+| Invalid grade level records | 0 |
+| Program records missing status | 0 |
+| Senior records requiring review | 3 |
+| Referential integrity exceptions | 0 |
 
 ## Data Quality Scorecard
 
 | check_name | exception_count |
 | --- | --- |
-| Duplicate student records | 1 |
-| Inactive enrollments missing exit codes | 1 |
-| Invalid grade levels | 1 |
-| Program records missing status | 1 |
-| Seniors missing graduation status | 2 |
+| Duplicate student records | 0 |
+| Inactive enrollments missing exit codes | 0 |
+| Invalid grade levels | 0 |
+| Program records missing status | 0 |
+| Seniors missing graduation status | 0 |
 
 
 ## Duplicate Student Records
 
-| student_id | state_student_id | record_count |
-| --- | --- | --- |
-| 1007 | CA0001007 | 2 |
+_No records found._
 
 
 ## Missing Exit Codes
 
-| enrollment_id | student_id | school_year | entry_date | exit_date | exit_code | grade_level | enrollment_status |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| E006 | 1006 | 2025-2026 | 2025-08-12 | 2025-11-03 |  | 9 | Inactive |
+_No records found._
 
 
 ## Invalid Grade Levels
 
-| enrollment_id | student_id | school_year | grade_level | enrollment_status |
-| --- | --- | --- | --- | --- |
-| E016 | 1016 | 2025-2026 | 13 | Active |
+_No records found._
 
 
 ## Program Records Missing Status
 
-| program_record_id | student_id | program_name | program_status | start_date | end_date |
-| --- | --- | --- | --- | --- | --- |
-| P007 | 1012 | English Learner |  | 2025-08-12 |  |
+_No records found._
 
 
 ## Senior Exit Status Review
 
 | student_id | first_name | last_name | grade_level | enrollment_status | graduation_status | credits_attempted | credits_earned | graduation_eligible | notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1005 | Isabella | Nguyen | 12 | Active |  | 230 | 218 | No | Missing graduation status in student record |
+| 1005 | Isabella | Nguyen | 12 | Active | Pending Review | 230 | 218 | No | Missing graduation status in student record |
 | 1013 | Ava | Thomas | 12 | Active | On Track | 230 | 232 | Yes | Credit total requires review |
 | 1014 | William | Moore | 12 | Active | Behind Credits | 230 | 190 | Yes | Marked eligible despite insufficient credits |
-| 1015 | Mia | Taylor | 12 | Active |  | 230 | 226 | Yes | Graduation status missing |
 
 
 ## Referential Integrity Exceptions
 
-| exception_type | student_id | source_record_id | source_file |
-| --- | --- | --- | --- |
-| Enrollment Missing Student Master Record | 1016 | E016 | enrollments.csv |
+_No records found._
 
 
 ## CRDC-Style Discipline Summary

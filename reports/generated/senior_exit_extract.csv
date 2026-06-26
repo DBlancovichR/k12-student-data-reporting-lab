@@ -2,6 +2,7 @@ state_student_id,student_id,first_name,last_name,enrollment_status,graduation_st
 CA0001009,1009,Olivia,Brown,Inactive,Certificate,230,220,3.1,Yes,Certificate pathway
 CA0001004,1004,Ethan,Kim,Active,On Track,230,225,3.42,Yes,On track pending final semester
 CA0001014,1014,William,Moore,Active,Behind Credits,230,190,2.4,Yes,Marked eligible despite insufficient credits
-CA0001005,1005,Isabella,Nguyen,Active,,230,218,2.91,No,Missing graduation status in student record
-CA0001015,1015,Mia,Taylor,Active,,230,226,3.01,Yes,Graduation status missing
+CA0001005,1005,Isabella,Nguyen,Active,Pending Review,230,218,2.91,No,Missing graduation status in student record
+CA0001016,1016,Review,Pending,Active,Pending Review,,,,,
+CA0001015,1015,Mia,Taylor,Active,Pending Review,230,226,3.01,Yes,Graduation status missing
 CA0001013,1013,Ava,Thomas,Active,On Track,230,232,3.65,Yes,Credit total requires review

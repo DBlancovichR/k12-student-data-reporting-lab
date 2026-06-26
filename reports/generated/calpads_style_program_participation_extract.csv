@@ -1,9 +1,8 @@
 state_student_id,student_id,first_name,last_name,program_name,program_status,start_date,end_date
 CA0001010,1010,Liam,Davis,English Learner,Active,2025-08-12,
-CA0001012,1012,Jose,Hernandez,English Learner,,2025-08-12,
+CA0001012,1012,Jose,Hernandez,English Learner,Active,2025-08-12,
 CA0001005,1005,Isabella,Nguyen,English Learner,Active,2025-08-12,
 CA0001002,1002,Marcus,Reed,English Learner,Active,2025-08-12,
-CA0001007,1007,Maya,Johnson,Section 504,Active,2025-08-12,
 CA0001007,1007,Maya,Johnson,Section 504,Active,2025-08-12,
 CA0001014,1014,William,Moore,Section 504,Active,2025-08-12,
 CA0001009,1009,Olivia,Brown,Special Education,Active,2025-08-12,2026-01-15

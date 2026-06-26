@@ -1,2 +1,1 @@
 exception_type,student_id,source_record_id,source_file
-Enrollment Missing Student Master Record,1016,E016,enrollments.csv

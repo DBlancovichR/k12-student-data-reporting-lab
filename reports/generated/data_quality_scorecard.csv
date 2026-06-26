@@ -1,6 +1,6 @@
 check_name,exception_count
-Duplicate student records,1
-Inactive enrollments missing exit codes,1
-Invalid grade levels,1
-Program records missing status,1
-Seniors missing graduation status,2
+Duplicate student records,0
+Inactive enrollments missing exit codes,0
+Invalid grade levels,0
+Program records missing status,0
+Seniors missing graduation status,0
