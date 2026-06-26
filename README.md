@@ -93,9 +93,21 @@ reports/generated/
 | `invalid_grade_levels.csv` | Finds grade levels outside the expected high school range |
 | `program_records_missing_status.csv` | Finds incomplete program participation records |
 | `senior_exit_status_review.csv` | Reviews grade 12 graduation status and transcript issues |
+| `referential_integrity_exceptions.csv` | Finds records that do not match a student master record |
 | `data_quality_scorecard.csv` | Summarizes exception counts |
 | `enrollment_by_grade.csv` | Summarizes active enrollment by grade |
 | `crdc_style_discipline_summary.csv` | Summarizes discipline actions and removal days |
+| `validation_summary.md` | Provides a reviewer-friendly Markdown summary of validation results |
+
+## Reporting Extracts
+
+| Extract | Purpose |
+|---|---|
+| `calpads_style_enrollment_extract.csv` | Simulates an enrollment reporting extract |
+| `calpads_style_program_participation_extract.csv` | Simulates a program participation reporting extract |
+| `cbeds_style_school_summary.csv` | Simulates a school-level enrollment summary |
+| `crdc_style_discipline_extract.csv` | Simulates a discipline reporting extract |
+| `senior_exit_extract.csv` | Simulates a senior exit and graduation-status extract |
 
 ## Sample Data Quality Findings
 
@@ -166,7 +178,7 @@ Planned improvements include:
 - PostgreSQL version
 - Larger synthetic dataset
 - Python-generated dashboards
-- Automated data quality scoring
+- Expanded automated data quality scoring
 - More detailed CALPADS-style extract simulations
 - Import/export error logging
 - Screenshots of report outputs and workflow execution
@@ -179,8 +191,12 @@ The project can also be run with Make:
 |---|---|
 | `make build` | Builds the SQLite database |
 | `make validate` | Runs validation reports |
-| `make reset` | Rebuilds the database and regenerates reports |
-| `make clean` | Removes generated database and reports |
+| `make extracts` | Generates CALPADS-style, CBEDS-style, CRDC-style, and senior exit extracts |
+| `make summary` | Generates the Markdown validation summary |
+| `make corrections` | Generates the correction action plan |
+| `make apply-corrections` | Applies sample corrections and regenerates reports |
+| `make reset` | Rebuilds the database and regenerates all reports/extracts |
+| `make clean` | Removes generated database and report files |
 
 ## Correction Action Plan
 
