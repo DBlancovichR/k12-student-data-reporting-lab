@@ -99,3 +99,56 @@ All data in this repository is synthetic and created for demonstration purposes 
 
 - `data/data_dictionary.md` explains each synthetic data file and field.
 - `docs/job_alignment_matrix.md` maps project deliverables to education data systems responsibilities.
+
+## Executable Workflow
+
+This project includes a runnable SQLite validation workflow using Python standard-library tools.
+
+### 1. Build the SQLite database
+
+```bash
+python3 scripts/build_database.py
+
+
+
+```
+
+This creates:
+
+```text
+database/k12_student_reporting.db
+```
+
+### 2. Run validation reports
+
+```bash
+python3 scripts/run_validation.py
+```
+
+This generates CSV outputs in:
+
+```text
+reports/generated/
+```
+
+### Generated Reports
+
+| Report | Purpose |
+|---|---|
+| `duplicate_student_records.csv` | Identifies duplicate student IDs |
+| `missing_exit_codes.csv` | Finds inactive enrollments missing exit codes |
+| `invalid_grade_levels.csv` | Finds grade levels outside the expected high school range |
+| `program_records_missing_status.csv` | Finds incomplete program participation records |
+| `senior_exit_status_review.csv` | Reviews grade 12 graduation status and transcript issues |
+| `data_quality_scorecard.csv` | Summarizes exception counts |
+| `enrollment_by_grade.csv` | Summarizes active enrollment by grade |
+| `crdc_style_discipline_summary.csv` | Summarizes discipline actions and removal days |
+
+## Technical Stack
+
+- Python 3
+- SQLite
+- SQL
+- CSV
+- Git/GitHub
+- Markdown documentation

@@ -1,0 +1,5 @@
+student_id,first_name,last_name,grade_level,enrollment_status,graduation_status,credits_attempted,credits_earned,graduation_eligible,notes
+1005,Isabella,Nguyen,12,Active,,230,218,No,Missing graduation status in student record
+1013,Ava,Thomas,12,Active,On Track,230,232,Yes,Credit total requires review
+1014,William,Moore,12,Active,Behind Credits,230,190,Yes,Marked eligible despite insufficient credits
+1015,Mia,Taylor,12,Active,,230,226,Yes,Graduation status missing
