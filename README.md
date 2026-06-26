@@ -170,3 +170,14 @@ Planned improvements include:
 - More detailed CALPADS-style extract simulations
 - Import/export error logging
 - Screenshots of report outputs and workflow execution
+
+## Optional Makefile Commands
+
+The project can also be run with Make:
+
+| Command | Purpose |
+|---|---|
+| `make build` | Builds the SQLite database |
+| `make validate` | Runs validation reports |
+| `make reset` | Rebuilds the database and regenerates reports |
+| `make clean` | Removes generated database and reports |
