@@ -1,0 +1,7 @@
+student_id,student_name,enrollment_status,credits_attempted,credits_earned,graduation_status,graduation_eligible,review_status
+1004,Ethan Kim,Active,230,225,On Track,Yes,No exception
+1005,Isabella Nguyen,Active,230,218,,No,Needs graduation status update
+1009,Olivia Brown,Inactive,230,220,Certificate,Yes,No exception
+1013,Ava Thomas,Active,230,232,On Track,Yes,Review credit total
+1014,William Moore,Active,230,190,Behind Credits,Yes,Review eligibility conflict
+1015,Mia Taylor,Active,230,226,,Yes,Needs graduation status update

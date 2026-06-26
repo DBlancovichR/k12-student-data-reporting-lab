@@ -1,0 +1,5 @@
+action_taken,incident_count,total_days_removed,notes
+Conference,1,0,No removal
+Detention,1,0,No removal
+In-School Suspension,2,2,Removal within school setting
+Out-of-School Suspension,1,3,Removal from school setting

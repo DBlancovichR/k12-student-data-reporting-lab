@@ -1,0 +1,17 @@
+student_id,state_student_id,first_name,last_name,grade_level,enrollment_status,english_learner_status,special_education_status,section_504_status,graduation_status
+1001,CA0001001,Ana,Lopez,9,Active,No,No,No,
+1002,CA0001002,Marcus,Reed,10,Active,Yes,No,No,
+1003,CA0001003,Sofia,Martinez,11,Active,No,Yes,No,
+1004,CA0001004,Ethan,Kim,12,Active,No,No,No,On Track
+1005,CA0001005,Isabella,Nguyen,12,Active,Yes,No,No,
+1006,CA0001006,Daniel,Garcia,9,Inactive,No,No,No,
+1007,CA0001007,Maya,Johnson,10,Active,No,No,Yes,
+1007,CA0001007,Maya,Johnson,10,Active,No,No,Yes,
+1008,CA0001008,Noah,Patel,11,Active,No,No,No,
+1009,CA0001009,Olivia,Brown,12,Inactive,No,Yes,No,Certificate
+1010,CA0001010,Liam,Davis,9,Active,Yes,No,No,
+1011,CA0001011,Emma,Wilson,10,Active,No,No,No,
+1012,CA0001012,Jose,Hernandez,11,Active,Yes,No,No,
+1013,CA0001013,Ava,Thomas,12,Active,No,No,No,On Track
+1014,CA0001014,William,Moore,12,Active,No,No,Yes,Behind Credits
+1015,CA0001015,Mia,Taylor,12,Active,No,No,No,

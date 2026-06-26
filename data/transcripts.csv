@@ -1,0 +1,7 @@
+transcript_id,student_id,school_year,grade_level,credits_attempted,credits_earned,gpa,graduation_eligible,notes
+T001,1004,2025-2026,12,230,225,3.42,Yes,On track pending final semester
+T002,1005,2025-2026,12,230,218,2.91,No,Missing graduation status in student record
+T003,1009,2025-2026,12,230,220,3.10,Yes,Certificate pathway
+T004,1013,2025-2026,12,230,232,3.65,Yes,Credit total requires review
+T005,1014,2025-2026,12,230,190,2.40,Yes,Marked eligible despite insufficient credits
+T006,1015,2025-2026,12,230,226,3.01,Yes,Graduation status missing

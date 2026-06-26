@@ -1,0 +1,9 @@
+program_record_id,student_id,program_name,program_status,start_date,end_date
+P001,1002,English Learner,Active,2025-08-12,
+P002,1003,Special Education,Active,2025-08-12,
+P003,1005,English Learner,Active,2025-08-12,
+P004,1007,Section 504,Active,2025-08-12,
+P005,1009,Special Education,Active,2025-08-12,2026-01-15
+P006,1010,English Learner,Active,2025-08-12,
+P007,1012,English Learner,,2025-08-12,
+P008,1014,Section 504,Active,2025-08-12,

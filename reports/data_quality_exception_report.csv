@@ -1,0 +1,9 @@
+exception_id,exception_type,student_id,source_file,issue,recommended_action,status
+EX001,Duplicate Student Record,1007,students.csv,Duplicate student_id and state_student_id found,Review SIS record and merge/remove duplicate,Open
+EX002,Missing Exit Code,1006,enrollments.csv,Inactive student has exit date but no exit code,Confirm withdrawal reason and enter valid exit code,Open
+EX003,Invalid Grade Level,1016,enrollments.csv,Grade level 13 is outside expected high school range,Verify grade placement or correct data entry,Open
+EX004,Missing Graduation Status,1005,students.csv,Grade 12 student missing graduation_status,Review transcript and update senior status,Open
+EX005,Missing Program Status,1012,programs.csv,English Learner program record missing program_status,Confirm active/inactive program status,Open
+EX006,Transcript Credit Mismatch,1013,transcripts.csv,Credits earned exceed credits attempted,Review transcript credit totals,Open
+EX007,Graduation Eligibility Conflict,1014,transcripts.csv,Marked graduation eligible despite insufficient credits,Review senior exit and graduation eligibility,Open
+EX008,Missing Graduation Status,1015,students.csv,Grade 12 student missing graduation_status,Review transcript and update senior status,Open

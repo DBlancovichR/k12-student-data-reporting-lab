@@ -1,0 +1,6 @@
+incident_id,student_id,school_year,incident_date,incident_type,action_taken,days_removed
+D001,1002,2025-2026,2025-09-18,Disruption,Detention,0
+D002,1005,2025-2026,2025-10-04,Defiance,In-School Suspension,1
+D003,1009,2025-2026,2025-11-12,Fighting,Out-of-School Suspension,3
+D004,1014,2025-2026,2026-01-22,Disruption,In-School Suspension,1
+D005,1012,2025-2026,2026-02-03,Harassment,Conference,0
